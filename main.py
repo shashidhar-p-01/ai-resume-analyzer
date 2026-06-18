@@ -1,6 +1,9 @@
+import json
 from services.pdfreader import extract_text 
 from services.prompbuilder import build_prompt
 from services.llmservice import generate_response
+from services.reportgenerator import save_reports
+
 
 resume_text = extract_text("data/resume.pdf")
 jd_text = extract_text("data/jd.pdf")
@@ -37,3 +40,19 @@ print("="*50)
 print("RESUME ANALYSIS:")
 print("="*50)
 print(analysis)
+
+try:
+    analysis_dict = json.loads(analysis)
+
+except json.JSONDecodeError as e:
+    print("\nJSON ERROR:")
+    print(e)
+
+    print("\nRAW RESPONSE:")
+    print(analysis)
+
+    exit()
+
+report_path = save_reports(analysis_dict)
+print(f"Report saved at : {report_path}")
+

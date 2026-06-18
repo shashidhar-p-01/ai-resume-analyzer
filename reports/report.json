@@ -1,0 +1,32 @@
+{
+    "match_score": 35,
+    "matching_skills": [
+        "Problem-solving ability",
+        "Software Development lifecycle understanding (DevOps)",
+        "Linux administration",
+        "Automation scripting (Python/Bash)",
+        "Networking fundamentals (VPC, Load Balancing)"
+    ],
+    "missing_skills": [
+        "Strong knowledge of C Programming",
+        "C++ Programming proficiency",
+        "Demonstrated Data Structures and Algorithms implementation (core requirement for selection process)",
+        "Object-Oriented Programming implemented in C++/Java context"
+    ],
+    "strengths": [
+        "Highly proficient in modern cloud technologies and DevOps practices (Azure, Terraform, CI/CD).",
+        "Exceptional project documentation detailing complex system design and deployment workflows.",
+        "Demonstrated ability to work with large-scale infrastructure management and troubleshooting."
+    ],
+    "weaknesses": [
+        "Severe mismatch of core technical focus: The resume is heavily optimized for DevOps roles, not the foundational Software Engineer role requiring C/C++ expertise.",
+        "Lack of direct evidence of mastering core CS fundamentals (DSA) or low-level language programming (C/C++) as required by the JD and selection process.",
+        "The current skill set suggests an advanced infrastructure specialization rather than a strong academic SWE foundation."
+    ],
+    "recommendations": [
+        "Revamp the resume's focus dramatically. The candidate must pivot from being a 'DevOps Engineer' to emphasizing their core understanding of CS fundamentals (DSA, C++/OOP).",
+        "Create a new dedicated section titled 'Technical Fundamentals' or 'Core Skills' and detail proficiency in C++ and advanced DSA concepts (e.g., implementation of linked lists, trees, graphs) using code snippets or specific academic projects.",
+        "While keeping DevOps skills as secondary strengths, rephrase project descriptions to highlight the underlying algorithms and data structures used for efficiency rather than just the cloud tool used (e.g., instead of 'Configured Azure Traffic Manager,' write 'Implemented a load-balancing mechanism requiring knowledge of hashing algorithms').",
+        "Prepare extensively for technical interviews by revising basic C/C++ concepts, time/space complexity analysis, and complex DSA problems, as these are mandatory for the selection process."
+    ]
+}
