@@ -11,6 +11,8 @@ Analyze the resume and provide :
 4. strengths 
 5. weaknesses 
 6. recommendations to improve the resume to match the job description
+7. extract candidate's full name 
+8. extract candidate's current role or more relevant proffessional role 
 
 JOB DESCRIPTION :
 {jd_text}
@@ -25,6 +27,8 @@ do not use code blocks .
 
 EXAMPLE OUTPUT STRUCTURE :
 {{
+    "candidate_name": "",
+    "candidate_role": "",
     "match_score": 0,
     "matching_skills": [],
     "missing_skills": [],

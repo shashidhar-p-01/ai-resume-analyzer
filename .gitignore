@@ -39,3 +39,7 @@ venv/
 
 # documentation 
 documentation
+
+reports/
+data/
+

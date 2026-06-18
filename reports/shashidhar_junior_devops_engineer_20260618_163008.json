@@ -1,0 +1,36 @@
+{
+    "candidate_name": "Shashidhar",
+    "candidate_role": "Junior DevOps Engineer",
+    "match_score": 40,
+    "matching_skills": [
+        "Problem-solving ability",
+        "Software Development (General lifecycle management)",
+        "Testing & Debugging",
+        "System Integration",
+        "Analytical Skills",
+        "Communication Skills"
+    ],
+    "missing_skills": [
+        "Strong knowledge of C or C++",
+        "Data Structures and Algorithms (DSA) proficiency demonstrable through dedicated projects/experience",
+        "Deep OOP fundamentals focused on core language development rather than scripting"
+    ],
+    "strengths": [
+        "Demonstrated expertise in modern, scalable cloud infrastructure and DevOps practices (Azure, Docker, Kubernetes).",
+        "Strong practical experience with automation and Infrastructure as Code (Terraform, Ansible).",
+        "Solid understanding of networking fundamentals (VPC, Load Balancing, TCP/IP).",
+        "Experience completing full-lifecycle projects (CI/CD Pipelines) that require comprehensive troubleshooting."
+    ],
+    "weaknesses": [
+        "The resume heavily emphasizes DevOps and Cloud tools, creating a significant gap regarding the core requirement of C/C++ programming fundamentals.",
+        "Lacks dedicated examples or sections demonstrating deep theoretical knowledge in Data Structures and Algorithms required for classical Software Engineering interviews."
+    ],
+    "recommendations": [
+        "To match this specific JD (which is fundamentally SWE focused), the candidate must immediately overhaul their preparation to focus on mastering DSA using C++ or C.",
+        "Include a section or update project descriptions that specifically solve algorithmic problems rather than focusing solely on infrastructure deployment.",
+        "When describing existing projects, frame them by emphasizing the coding challenges and logic used (e.g., 'Implemented a custom data structure for resource mapping in the Terraform workflow') instead of just listing tools."
+    ],
+    "total_runtime_seconds": 54.60724925994873,
+    "llm_runtime_seconds": 54.51665186882019,
+    "processing_runtime_seconds": 0.09059739112854004
+}
