@@ -21,12 +21,12 @@ def generate_response(prompt):
     full_response = ""
 
     for line in response.iter_lines():
-        if line :
-            chunk = json.loads(line)
-            token = chunk.get("response", "")
-            full_response += token
-            print(token, end="", flush=True)
-
-    response.raise_for_status()
-
+        if not line:
+            continue
+        chunk = json.loads(line)
+        token = chunk.get("response", "")
+        print(token, end="", flush=True)
+        full_response += token
+    print()
+    
     return full_response
