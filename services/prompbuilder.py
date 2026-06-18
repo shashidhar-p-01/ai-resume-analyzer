@@ -18,16 +18,19 @@ CANDIDATE RESUME :
 {resume_text}
 
 OUTPUT FORMAT :
-1. Match Score : <match score>
-2. Matching Skills : 
--...
-3. Missing Skills : 
--...
-4. Strengths : 
--...
-5. Weaknesses : 
--...
-6. Recommendations : 
--...
+return ONLY valid JSON .
+do not include explainations . 
+do not use markdown . 
+do not use code blocks .
+
+EXAMPLE OUTPUT STRUCTURE :
+{{
+    "match_score": 0,
+    "matching_skills": [],
+    "missing_skills": [],
+    "strengths": [],
+    "weaknesses": [],
+    "recommendations": []
+}}
 """
     return prompt.strip()
