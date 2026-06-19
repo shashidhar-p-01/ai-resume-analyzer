@@ -13,6 +13,7 @@ def generate_response(prompt):
         json = {
             "model" : MODEL_NAME ,
             "prompt" : prompt,
+            "format" : "json",
             "stream" : True,
         }, 
         stream=True

@@ -1,0 +1,47 @@
+{
+    "candidate_name": "Krishna Prasanna Kumara Shetty",
+    "candidate_role": "B.Tech Graduate (Computer Science and Engineering)",
+    "match_score": 65,
+    "matching_skills": [
+        "Software Development",
+        "Web Application Development",
+        "Python",
+        "SQL",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Data Structures and Algorithms (Implied through CSE degree)",
+        "Problem-solving ability (Shown through projects)"
+    ],
+    "missing_skills": [
+        "C Programming",
+        "C++",
+        "Strong knowledge of C or C++",
+        "Deep dive into Data Structures and Algorithms (Explicitly listed experience/projects focusing on this)",
+        "Software testing (Mentioned as a JD responsibility, but not in skills list)",
+        "System integration (Not mentioned)"
+    ],
+    "strengths": [
+        "Strong foundational understanding of Computer Science principles (B.Tech CSE).",
+        "Demonstrates hands-on experience with modern technologies like Deep Learning (CNN) and Java Full Stack development.",
+        "Possesses basic web development skills (HTML, CSS, JavaScript, Bootstrap).",
+        "Good overall academic profile with high scores in examinations."
+    ],
+    "weaknesses": [
+        "Overemphasis on Java/Web Development technologies while the JD requires strong proficiency in C/C++.",
+        "Lack of explicit mention or demonstrable skills in core low-level programming languages (C, C++).",
+        "Project descriptions are somewhat vague regarding implementation details and academic depth required for C++/DSA roles.",
+        "The internship dates (Feb 2025 - Dec 2025) are future/hypothetical, which should be corrected."
+    ],
+    "recommendations": [
+        "Since the JD strongly emphasizes C or C++, dedicate a significant portion of the resume (especially skills section and projects) to showcase proficiency in C/C++. Include academic projects or competitive programming experiences that utilized C/C++.",
+        "Create a dedicated 'Technical Skills' subsection listing specific knowledge areas like 'Data Structures & Algorithms,' 'Pointers,' 'Memory Management,' etc., even if the experience comes from coursework.",
+        "Refocus the narrative: While Java and Deep Learning are valuable, tailor the resume bullet points to highlight your problem-solving approach using DSA principles, making it clear that you can transition or apply those fundamentals to C/C++.",
+        "Quantify achievements in projects. Instead of just listing 'Skills used,' describe what complexity level was solved (e.g., 'Implemented CNN model achieving X% accuracy on Y dataset').",
+        "Remove the future date range for the internship and update it with real dates."
+    ],
+    "resume_file": "data/resumes/Krishna_Prasanna_Kumara_Shetty_Resume.pdf",
+    "total_runtime_seconds": 14.700153589248657,
+    "llm_runtime_seconds": 14.67581558227539,
+    "processing_runtime_seconds": 0.0243380069732666
+}

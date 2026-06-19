@@ -1,0 +1,38 @@
+{
+    "candidate_name": "Vinay Kumar Reddy Molakathala",
+    "candidate_role": "Full Stack Developer",
+    "match_score": 45,
+    "matching_skills": [
+        "OOP",
+        "Problem Solving",
+        "Software Development",
+        "REST APIs",
+        "Design Patterns"
+    ],
+    "missing_skills": [
+        "C Programming",
+        "C++",
+        "Data Structures and Algorithms (Deep Focus)",
+        "Low-Level System Knowledge"
+    ],
+    "strengths": [
+        "Strong experience in modern full stack development (Java/Angular/React) indicating solid software engineering foundations.",
+        "Demonstrates practical project application of concepts like REST APIs, security (JWT), and database design.",
+        "Good professional structure with clear projects and skills listing."
+    ],
+    "weaknesses": [
+        "Over-focus on high-level, recent technologies (Java Full Stack) while the JD requires core low-level languages (C/C++).",
+        "The resume does not explicitly showcase deep knowledge of Data Structures or Algorithms in a non-project context.",
+        "Experience seems heavily geared towards web application development rather than core systems programming."
+    ],
+    "recommendations": [
+        "Crucially, add sections/bullet points to demonstrate proficiency and experience with C/C++. Since the JD is foundational (training phase), showcasing academic projects, competitive coding achievements, or specific coursework using C/C++ is essential.",
+        "Restructure the Technical Skills section to highlight 'Core Programming Fundamentals' (e.g., DSA implementation in C/C++) immediately after a brief summary.",
+        "When describing past projects, frame them by emphasizing algorithmic problem-solving aspects rather than just feature lists (e.g., instead of listing 'REST APIs,' describe optimizing the data flow using specific algorithms).",
+        "If possible, include achievements related to solving complex theoretical problems or contributing to C/C++ based systems/tools."
+    ],
+    "resume_file": "data/resumes/DOC-20260513-WA0008..pdf",
+    "total_runtime_seconds": 9.263407707214355,
+    "llm_runtime_seconds": 9.256148338317871,
+    "processing_runtime_seconds": 0.007259368896484375
+}

@@ -1,0 +1,43 @@
+{
+    "candidate_name": "LINGARAJ V PUJAR",
+    "candidate_role": "Computer Science Engineering Student (Aspiring Software Engineer)",
+    "match_score": 75,
+    "matching_skills": [
+        "C Programming",
+        "Data Structures and Algorithms",
+        "Problem-solving ability",
+        "Software Development",
+        "Testing & Debugging",
+        "Analytical Skills",
+        "Communication Skills",
+        "Object-Oriented Programming (Implied by Java/Python experience)",
+        "MySQL",
+        "Computer Science Fundamentals"
+    ],
+    "missing_skills": [
+        "Advanced C/C++ knowledge (Specific depth and projects are required, focusing solely on 'Strong knowledge')",
+        "System Integration experience (Needs more practical examples of integrating multiple complex software components)",
+        "Experience with industrial-grade enterprise tools or methodologies beyond academic projects."
+    ],
+    "strengths": [
+        "Demonstrates strong foundational programming skills (C is listed, and Java/Python indicate exposure to OOP concepts).",
+        "Excellent soft skills are highlighted: Problem-solving, Analytical thinking, and Communication.",
+        "Showcases diverse project experience (Embedded systems - Laser Home Security, AI/ML - Plant Disease Detection, Database development).",
+        "Proactive learner with relevant certifications and participation in technical competitions."
+    ],
+    "weaknesses": [
+        "The resume lacks depth in core required C/C++ concepts. While 'C' is listed, the JD requires *strong* knowledge.",
+        "The career objective uses too many general buzzwords (data analytics, web technologies) that dilute the focus needed for a pure Software Engineer role specializing in C/C++.",
+        "Education background is from an academic setting and needs to link theoretical knowledge more strongly to industry practices."
+    ],
+    "recommendations": [
+        "Prioritize and elaborate on C/C++ skills. Dedicate sections or projects specifically showcasing complex logic built using advanced C++/OOP concepts, as this is the primary requirement.",
+        "Revamp the Career Objective to be highly focused: State the goal (e.g., 'Aspiring Software Engineer proficient in developing robust solutions using C++ and solid DSA principles').",
+        "Structure the technical skills section by listing proficiency levels for C/C++ first, followed by other languages/tools.",
+        "Modify project descriptions to emphasize the computational complexity, data structures used, or algorithmic approach taken (e.g., 'Implemented X algorithm using linked lists/graphs in C++')."
+    ],
+    "resume_file": "data/resumes/2KA22CS018-LINGARAJ V P.pdf",
+    "total_runtime_seconds": 13.531811952590942,
+    "llm_runtime_seconds": 13.493947267532349,
+    "processing_runtime_seconds": 0.03786468505859375
+}
