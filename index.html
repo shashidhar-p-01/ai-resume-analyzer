@@ -1444,6 +1444,8 @@
           details = `Extracted ${event.chars} characters from resume.`;
         } else if (event.prompt_chars) {
           details = `Prompt constructed with ${event.prompt_chars} characters.`;
+        } else if (event.llm_time) {
+          details = `LLM response received in ${event.llm_time.toFixed(2)}s.`;
         } else if (event.report_path) {
           details = `Report generated and saved to: ${event.report_path}`;
         }

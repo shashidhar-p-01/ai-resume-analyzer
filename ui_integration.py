@@ -222,6 +222,12 @@ def analyse():
                 llm_end = time.time()
                 resume_end = time.time()
 
+                yield _sse("step", {"step": f"resume_{idx}_llm",
+                                     "status": "done",
+                                     "label": f"LLM response received",
+                                     "resume_index": idx,
+                                     "llm_time": llm_end - llm_start})
+
                 # ── Step: Parse JSON ─────────────────────────────────────────
                 yield _sse("step", {"step": f"resume_{idx}_parse",
                                      "status": "running",
